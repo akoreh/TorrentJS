@@ -1,0 +1,51 @@
+{
+  "name": "torrentjs",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js BitTorrent client that speaks fluent peer-to-peer.",
+  "homepage": "https://github.com/akoreh/TorrentJS#readme",
+  "bugs": {
+    "url": "https://github.com/akoreh/TorrentJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akoreh/TorrentJS.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "jest --watch"
+  },
+  "license": "MIT",
+  "author": "Andrei Koreh",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "keywords": [
+    "bittorrent",
+    "torrent",
+    "nodejs",
+    "p2p",
+    "peer-to-peer",
+    "client",
+    "magnet",
+    "dht",
+    "tracker",
+    "peer",
+    "file-sharing",
+    "streaming",
+    "protocol",
+    "download",
+    "upload"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "npm": "^11.3.0"
+  }
+}
